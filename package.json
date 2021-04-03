@@ -1,0 +1,15 @@
+{
+    "name": "Parcel",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel ./src/index.html",
+        "build": "yarn clean && parcel build ./src/index.html",
+        "clean": "rm -rf dist/*"
+    },
+    "devDependencies": {
+        "sass": "^1.32.8",
+        "typescript": "^4.2.3"
+    }
+}
