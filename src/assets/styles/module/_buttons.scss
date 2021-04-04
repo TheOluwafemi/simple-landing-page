@@ -1,0 +1,29 @@
+.btn {
+    padding: 0.8rem 2.3rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        transform: translateY(-1px);
+    }
+}
+
+.btn--cta {
+    background-color: $orange-red-crayola;
+    color: $color-white-1;
+    font-weight: 700;
+    font-size: 20px;
+
+    &:hover {
+        box-shadow: 0px 4px 8px #ffa69eff;
+    }
+}

@@ -1,0 +1,19 @@
+.title {
+    height: calc(100vh - #{$nav-height});
+    background-image: url(../images/home-banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title__text {
+    display: block;
+    font-weight: 700;
+    font-size: 5rem;
+    color: $color-white-1;
+    line-height: 2;
+}
+
+.title__btn {
+    display: block;
+}
