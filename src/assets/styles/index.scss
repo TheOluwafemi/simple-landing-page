@@ -1,12 +1,13 @@
+// utilities
+@import "./utilities/typography";
+@import "./utilities/variables";
+
 // base styles
 @import "./base/reset";
 @import "./base/body";
 
-// utilities
-@import "./utilities/variables";
-
 // layout styles
-@import "./layout/hero";
+@import "./layout/title";
 @import "./layout/navigation";
 @import "./layout/form";
 @import "./layout/footer";
