@@ -1,6 +1,19 @@
-@import "./reset";
-@import "./variables";
-@import "./navigation";
-@import "./home";
-@import "./form";
-@import "./footer";
+// base styles
+@import "./base/reset";
+@import "./base/body";
+
+// utilities
+@import "./utilities/variables";
+
+// layout styles
+@import "./layout/hero";
+@import "./layout/navigation";
+@import "./layout/form";
+@import "./layout/footer";
+@import "./layout/flex";
+
+// page styles
+@import "./pages/home";
+
+// module styles
+@import "./module/buttons";
