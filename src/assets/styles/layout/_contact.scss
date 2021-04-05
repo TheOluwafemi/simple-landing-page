@@ -1,0 +1,30 @@
+.contact {
+    padding: 5rem 0;
+    background-color: $orange-red-crayola;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: $color-white-1;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact__form {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contact__form {
+        width: 50%;
+    }
+}

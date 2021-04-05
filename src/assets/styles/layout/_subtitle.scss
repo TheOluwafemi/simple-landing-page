@@ -1,6 +1,5 @@
 .subtitle {
     padding: 5rem 0;
-
 }
 
 .subtitle__title {
@@ -89,9 +88,7 @@
     }
 }
 
-
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 1024px) {
     .row__first {
         .row__img {
             flex: 0 0 40%;
@@ -103,7 +100,6 @@
     }
 
     .row__second {
-
         .row__img {
             flex: 0 0 30%;
         }

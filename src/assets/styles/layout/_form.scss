@@ -1,0 +1,38 @@
+.form {
+    width: 100%;
+}
+
+.form__field {
+    margin: 1rem 0;
+}
+
+.form__label {
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+    color: $color-white-1;
+}
+
+.form__input {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid $color-grey-light;
+    outline: none;
+}
+
+.form__textarea {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid $color-grey-light;
+    padding: 1rem 1rem;
+    outline: none;
+}
+
+.form__btn {
+    width: 100%;
+    font-size: 18px;
+    color: $color-black-1;
+}
