@@ -1,5 +1,9 @@
 body {
-    background: white;
+    background: $color-white-1;
     font-family: "Lato", sans-serif;
     color: $color-text-grey;
+}
+
+a {
+    text-decoration: none;
 }

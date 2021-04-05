@@ -7,13 +7,12 @@
 @import "./base/body";
 
 // layout styles
+@import "./layout/header";
 @import "./layout/title";
 @import "./layout/subtitle";
 @import "./layout/contact";
-@import "./layout/navigation";
 @import "./layout/form";
 @import "./layout/footer";
-@import "./layout/flex";
 
 // page styles
 @import "./pages/home";
