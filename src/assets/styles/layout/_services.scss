@@ -1,8 +1,8 @@
-.subtitle {
+.services {
     padding: 5rem 0;
 }
 
-.subtitle__title {
+.services__title {
     text-align: center;
     font-size: 1.5rem;
     color: $orange-red-crayola;
@@ -25,10 +25,24 @@
     color: $orange-red-crayola;
     font-size: 1.5rem;
     font-weight: 700;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px 4px 8px $color-grey-light-9;
+    }
+}
+
+.row__img__text {
+    background-color: $color-black-900;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 .row__text {
     flex: 0 0 100%;
+    line-height: 2;
 }
 
 .row__first {
