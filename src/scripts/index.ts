@@ -3,10 +3,6 @@
  * waits for the initial HTML document to be completely loaded and parsed,
  */
 document.addEventListener("DOMContentLoaded", (event) => {
-    /** get hamburger element
-     * get nav__menu element
-     * get all nav__link elements
-     */
     const hamburger = document.querySelector(".hamburger") as HTMLElement;
     const navMenu = document.querySelector(".nav__menu") as HTMLElement;
     const navLink = document.querySelectorAll(".nav__link") as NodeListOf<
@@ -29,7 +25,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         navMenu.classList.remove("active");
     }
 
-    /** get contact form as contactForm */
     const contactForm = document.getElementById(
         "contact-form"
     ) as HTMLFormElement;
