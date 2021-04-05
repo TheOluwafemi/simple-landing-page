@@ -1,4 +1,23 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+    const hamburger = document.querySelector(".hamburger") as HTMLElement;
+    const navMenu = document.querySelector(".nav__menu") as HTMLElement;
+    const navLink = document.querySelectorAll(".nav__link") as NodeListOf<
+        HTMLElement
+    >;
+
+    hamburger.addEventListener("click", toggleMobileMenu);
+    navLink.forEach((link) => link.addEventListener("click", closeMobileMenu));
+
+    function toggleMobileMenu(): void {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+
+    function closeMobileMenu(): void {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+
     const contactForm = document.getElementById(
         "contact-form"
     ) as HTMLFormElement;
