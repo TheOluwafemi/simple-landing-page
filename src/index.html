@@ -6,7 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>MyQasa | Home</title>
         <link rel="stylesheet" href="./assets/styles/index.scss" />
-        <script src="./scripts/index.ts" defer></script>
+        <script defer src="./scripts/index.ts"></script>
+        <script
+            defer
+            src="../node_modules/@fortawesome/fontawesome-free/js/solid.min.js"
+        ></script>
+        <script
+            defer
+            src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"
+        ></script>
     </head>
     <body>
         <main class="home">
@@ -106,32 +114,36 @@
 
             <!-- footer section   -->
             <footer class="footer">
-                <article class="footer__col">
-                    <p>Address</p>
-                    <p>Phone</p>
-                    <p>Email</p>
-                </article>
+                <div class="footer__row">
+                    <article class="footer__col1">
+                        <p>
+                            <i class="footer__icon fas fa-map-marker-alt"></i>3,
+                            Isaac John road, Lagos.
+                        </p>
+                        <p>
+                            <i class="footer__icon fas fa-phone"></i
+                            >+234700000000
+                        </p>
+                        <p>
+                            <i class="footer__icon fas fa-envelope"></i
+                            >contact@myqasa.com
+                        </p>
+                    </article>
 
-                <article class="footer__col">
-                    <div class="footer__container">
+                    <article class="footer__col2">
                         <div class="footer__col__row">
-                            <p>Link 1</p>
-                            <p>Link 2</p>
+                            <a class="footer__link" href="#">Home</a>
+                            <a class="footer__link" href="#">About Us</a>
                         </div>
                         <div class="footer__col__row">
-                            <p>Link 3</p>
-                            <p>Link 4</p>
+                            <a class="footer__link" href="#">Services</a>
+                            <a class="footer__link" href="#">Contact Us</a>
                         </div>
-                        <div class="footer__col__row">
-                            <p>Link 5</p>
-                            <p>Link 6</p>
-                        </div>
+                    </article>
+                </div>
 
-                        <hr />
-
-                        <div>copyright</div>
-                    </div>
-                </article>
+                <hr class="footer__line" />
+                <p class="footer__text__center">&#169;Copyright</p>
             </footer>
         </main>
     </body>
