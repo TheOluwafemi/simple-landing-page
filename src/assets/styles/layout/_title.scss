@@ -13,11 +13,30 @@
 .title__text {
     display: block;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 3rem;
     color: $color-white-1;
     line-height: 2;
+    text-align: center;
+    background-color: $color-black-600;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 90%;
 }
 
 .title__btn {
     display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    .title__text {
+        font-size: 4rem;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .title__text {
+        font-size: 4rem;
+        width: 60%;
+    }
 }
